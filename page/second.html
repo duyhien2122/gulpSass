@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 2</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+
+</head>
+
+<body>
+    <div>
+        @@include("./nav.html");
+        <div class="main-content">
+            <div class="packages" id="packages">
+                <h1 class="name-item">Packages.</h1>
+                <hr>
+                <br>
+                <p>Some text our prices. Lorem ipsum consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                </p>
+                <br>
+                <div class="packages-name">
+                    <div class="package-item">
+                        <ul class="haft-container">
+                            <li class="name-package" style="background-color: #616161;">Basic</li>
+                            <li>Floorplanning</li>
+                            <li>10 hours support</li>
+                            <li>Photography</li>
+                            <li>20% furniture discount</li>
+                            <li>Good deals</li>
+                            <li class="price">$ 199</li>
+                            <li class="btn">
+                                <button class="">Sign Up</button>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="package-item">
+                        <ul class="haft-container">
+                            <li class="name-package" style="background-color: #f44336;">Pro</li>
+                            <li>Floorplanning</li>
+                            <li>50 hours support</li>
+                            <li>Photography</li>
+                            <li>50% furniture discount</li>
+                            <li>GREAT deals</li>
+                            <li class="price">$ 249</li>
+                            <li class="btn">
+                                <button class="" style="background-color: #f44336;color: #fff">Sign Up</button>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="contact" id="contact">
+                <h1 class="name-item">Contact.</h1>
+                <hr>
+                <br>
+                <p>Do you want us to style your home? 
+                    Fill out the form and fill me in with the details. 
+                    We love meeting new people!
+                </p>
+                <br>
+                <form action="">
+                   <div class="section-form">
+                       <label for="">Name</label>
+                        <input type="text" required>
+                    </div>
+                   <div class="section-form">
+                        <label for="">Email</label>
+                        <input type="text" required>
+                    </div>
+                   <div class="section-form">
+                        <label for="">Message</label>
+                        <input type="text" required>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+
+        </div>
+        @@include('./footer.html')
+    </div>
+</body>
+
+</html>
